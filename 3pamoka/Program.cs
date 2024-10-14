@@ -166,22 +166,22 @@
 //4 Uzduotis
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Console.WriteLine("Iveskite savo amziu:");
+Console.WriteLine("Iveskite savo amziu:");
 
-//int input = Convert.ToInt32(Console.ReadLine());
+int input = Convert.ToInt32(Console.ReadLine());
 
-//if (input < 18)
-//{
-//    Console.WriteLine("Jums priklauso nepilnamecio akcija!");
-//}
-//else if (input >= 18 && input < 65)
-//{
-//    Console.WriteLine("Jus esate suauges");
-//}
-//else //Kodel ne else?
-//{
-//    Console.WriteLine("Jums priklauso senjoro akcija");
-//}
+if (input < 18)
+{
+    Console.WriteLine("Jums priklauso nepilnamecio akcija!");
+}
+else if (input >= 18 && input < 65)
+{
+    Console.WriteLine("Jus esate suauges");
+}
+else //Kodel ne else?
+{
+    Console.WriteLine("Jums priklauso senjoro akcija");
+}
 
 //5 Uzduotis
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

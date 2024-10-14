@@ -143,7 +143,9 @@ string figura = Console.ReadLine();
 switch (figura)
 { case "1":
         Console.WriteLine("Iveskite kvadrato krastines ilgi:");
-        double krastine = Convert.ToDouble
+        double krastine = Convert.ToDouble(Console.ReadLine());
+        double resultatas = (krastine * krastine);
+        Console.WriteLine(resultatas);
 
         
      
