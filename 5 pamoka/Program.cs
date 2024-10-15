@@ -116,6 +116,7 @@ string input  = Console.ReadLine();
 if (input.Contains("labas"))
 {
     char[] simboliuMasyvas = input.ToCharArray();
+    char[] t = simboliuMasyvas.Reverse().ToArray();
     Array.Reverse(simboliuMasyvas); //simboliuMasyvas.Reverse();
     string atbulasZodis = new string(simboliuMasyvas);
     Console.WriteLine(atbulasZodis);
