@@ -133,46 +133,48 @@
 //2 uzduotis
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Console.WriteLine("Iveskite figura");
-//Console.WriteLine("Kvadratas");
-//Console.WriteLine("Apskritimas");
-//Console.WriteLine("Trikampis");
-//Console.WriteLine("Staciakampis");
-
-//string figura = Console.ReadLine();
-//switch (figura)
-//{ case "Kvadratas":
-//        Console.WriteLine("Iveskite kvadrato krastines ilgi:");
-//        double krastine = Convert.ToDouble(Console.ReadLine());
-//        double resultatas = (krastine * krastine);
-//        Console.WriteLine(resultatas);
-//        break;
-//    case "Apskritimas":
-//        Console.WriteLine("Iveskite apskritimo spinduli");
-//        double spindulys = Convert.ToDouble(Console.ReadLine());
-//        double resultatas1 = (Math.PI * Math.Pow(spindulys, 2));
-//        Console.WriteLine(resultatas1);
-//        break;
-//    case "Trikampis":
-//        Console.WriteLine("Iveskite Trikampio aukstine");
-//        double aukstine = Convert.ToDouble(Console.ReadLine());
-//        Console.WriteLine("Iveskite trikampio pagrinda");
-//        double pagrindas = Convert.ToDouble(Console.ReadLine());
-//        double resultatas2 = (1 / 2 * aukstine * pagrindas);
-//        Console.WriteLine(resultatas2);
-//        break;
-//    case "Staciakampis":
-//        Console.WriteLine("Iveskite staciakampio ilgi");
-//        double ilgis = Convert.ToDouble(Console.ReadLine());
-//        Console.WriteLine("Iveskite staciakampio ploti");
-//        double plotis = Convert.ToDouble(Console.ReadLine());
-//        double resultatas3 = (ilgis * plotis);
-//        Console.WriteLine(resultatas3);
-//        break;
-//    default:
-//        Console.WriteLine("Ivesta netaisiklinga figura");
-//        break;
-//}
+Console.WriteLine("Iveskite figura:");
+Console.WriteLine("");
+Console.WriteLine("Kvadratas");
+Console.WriteLine("Apskritimas");
+Console.WriteLine("Trikampis");
+Console.WriteLine("Staciakampis");
+Console.WriteLine("");
+string figura = Console.ReadLine();
+switch (figura)
+{
+    case "Kvadratas":
+        Console.WriteLine("Iveskite kvadrato krastines ilgi:");
+        double krastine = Convert.ToDouble(Console.ReadLine());
+        double resultatas = (krastine * krastine);
+        Console.WriteLine(resultatas);
+        break;
+    case "Apskritimas":
+        Console.WriteLine("Iveskite apskritimo spinduli");
+        double spindulys = Convert.ToDouble(Console.ReadLine());
+        double resultatas1 = (Math.PI * Math.Pow(spindulys, 2));
+        Console.WriteLine(resultatas1);
+        break;
+    case "Trikampis":
+        Console.WriteLine("Iveskite Trikampio aukstine");
+        double aukstine = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Iveskite trikampio pagrinda");
+        double pagrindas = Convert.ToDouble(Console.ReadLine());
+        double resultatas2 = (1 / 2 * aukstine * pagrindas);
+        Console.WriteLine(resultatas2);
+        break;
+    case "Staciakampis":
+        Console.WriteLine("Iveskite staciakampio ilgi");
+        double ilgis = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Iveskite staciakampio ploti");
+        double plotis = Convert.ToDouble(Console.ReadLine());
+        double resultatas3 = (ilgis * plotis);
+        Console.WriteLine(resultatas3);
+        break;
+    default:
+        Console.WriteLine("Ivesta netaisiklinga figura");
+        break;
+}
 
 
 //2 uzduotis
@@ -203,14 +205,14 @@
 //        break;
 //}
 
-//2 uzduotis
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-Console.WriteLine("Iveskite specialybe");
-Console.WriteLine("Matematika");
-Console.WriteLine("Informatika");
-Console.WriteLine("Biologija");
-Console.WriteLine("Chemija");
-string specialybe = Console.ReadLine();
+////2 uzduotis
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Console.WriteLine("Iveskite specialybe");
+//Console.WriteLine("Matematika");
+//Console.WriteLine("Informatika");
+//Console.WriteLine("Biologija");
+//Console.WriteLine("Chemija");
+//string specialybe = Console.ReadLine();
 
 
 

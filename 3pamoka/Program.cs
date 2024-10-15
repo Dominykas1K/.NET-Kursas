@@ -3,31 +3,31 @@
 //1 Uzduotis
 ///////////////////////////////////////////////////////////////////////////
 
-//Console.WriteLine("Iveskite skaiciu");
-//int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Iveskite skaiciu");
+int number = Convert.ToInt32(Console.ReadLine());
 
 
-//if (number > 100)
-//{
+if (number > 100)
+{
 
-//    Console.WriteLine("skaicius yra didesnis nei 100");
+    Console.WriteLine("skaicius yra didesnis nei 100");
 
-//}
+}
 
-//else if (number == 100)
-//{
+else if (number == 100)
+{
 
-//    Console.WriteLine("skaicius yra lygus 100");
+    Console.WriteLine("skaicius yra lygus 100");
 
 
-//}
+}
 
-//else if (number < 100)
-//{
+else if (number < 100)
+{
 
-//    Console.WriteLine("skaicius yra mazesnis nei 100");
+    Console.WriteLine("skaicius yra mazesnis nei 100");
 
-//}
+}
 
 
 // 1 Uzduotis
@@ -166,22 +166,22 @@
 //4 Uzduotis
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Console.WriteLine("Iveskite savo amziu:");
+//Console.WriteLine("Iveskite savo amziu:");
 
-int input = Convert.ToInt32(Console.ReadLine());
+//int input = Convert.ToInt32(Console.ReadLine());
 
-if (input < 18)
-{
-    Console.WriteLine("Jums priklauso nepilnamecio akcija!");
-}
-else if (input >= 18 && input < 65)
-{
-    Console.WriteLine("Jus esate suauges");
-}
-else //Kodel ne else?
-{
-    Console.WriteLine("Jums priklauso senjoro akcija");
-}
+//if (input < 18)
+//{
+//    Console.WriteLine("Jums priklauso nepilnamecio akcija!");
+//}
+//else if (input >= 18 && input < 65)
+//{
+//    Console.WriteLine("Jus esate suauges");
+//}
+//else //Kodel ne else?
+//{
+//    Console.WriteLine("Jums priklauso senjoro akcija");
+//}
 
 //5 Uzduotis
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
