@@ -99,7 +99,7 @@
 ////////    }
 ////////} while (!isNumber);
 
-//1uzduotis
+//1uzduotis 3dalis
 //int num = 0;
 //do
 //{
@@ -110,7 +110,10 @@
 
 
 Console.WriteLine("Iveskite skaiciu:");
-int number = int.Parse(Console.ReadLine());
+string input = (Console.ReadLine());
+bool isNumber = false;
+int number;
+isNumber = int.TryParse(input, out number);
 
 int faktorialas = 1;
 int i = 1;
