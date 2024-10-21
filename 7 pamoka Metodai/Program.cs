@@ -8,8 +8,8 @@
 //        static void Main(string[] args)
 //        {
 //            Console.WriteLine("Iveskite slaptazodi ilgesni nei 8 simboliu");
-//            string input = Console.ReadLine();
-//            if (IsCorrectPassword(input))
+//            string input1 = Console.ReadLine();  //Sitas nebutinai turi sutapti su metodo kintamaisiais
+//            if (IsCorrectPassword(input1))
 //            {
 //                Console.WriteLine("slaptazodis tinkamas");
 //            }
@@ -19,7 +19,7 @@
 //            }
 
 //        }
-//        public static bool IsCorrectPassword(string input)
+//        public static bool IsCorrectPassword(string input)  //Su sitais
 //        {
 //            if (input.Length >= 8)
 //            {
@@ -31,6 +31,8 @@
 //                return false;
 //            }
 //        }
+//    }
+//}
 
 
 
@@ -146,28 +148,69 @@
 
 
 //2 uzduoties 3 dalis
-namespace _7_pamoka_Metodai
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Iveksite skaiciu");
-            int input = Convert.ToInt32(Console.ReadLine());
-            bool result = IsNumberEven(input);
-            Console.WriteLine(result);
-        }
-        public static  bool IsNumberEven(int input)
-        {
-            if (input > 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-     
-    }
-}
+//namespace _7_pamoka_Metodai
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Iveksite skaiciu");
+//            int input = Convert.ToInt32(Console.ReadLine());
+//            bool result = IsNumberEven(input);
+//            Console.WriteLine(result);
+//        }
+//        public static  bool IsNumberEven(int input)
+//        {
+//            if (input > 0)
+//            {
+//                return true;
+//            }
+//            else
+//            {
+//                return false;
+//            }
+//        }
+
+//    }
+//}
+
+
+
+//2uzudotis 4 dalis
+//namespace _7_pamoka_Metodai
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Iveskite staciakampio ilgi");
+//            double input1 = Convert.ToDouble(Console.ReadLine());
+//            Console.WriteLine("Iveskite staciakampio auksti");
+//            double input2 = Convert.ToDouble(Console.ReadLine());
+//            double result = CalculateRectangleArea(input1, input2);
+//            Console.WriteLine(result);
+//        }
+//        public static double CalculateRectangleArea(double input1, double input2)
+//        {
+//            double result = input1 * input2;
+//            return result;
+//        }
+//    }
+//}
+
+
+
+//3uzduotis faktroialas
+//namespace _7_pamoka_Metodai
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+
+//        }
+
+//    }
+//}
+
+

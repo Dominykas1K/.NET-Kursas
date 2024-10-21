@@ -80,18 +80,18 @@
 ///////////////////////////////////////////
 
 
-//Console.WriteLine("iveskite zodi");
-//string input = Console.ReadLine();
+Console.WriteLine("iveskite zodi");
+string input = Console.ReadLine();
 
-//if (char.IsUpper(input[0]))
-//{
-//    Console.WriteLine(input.ToUpper());
-//}
-//else
-//{
-//    string changedInput = input.Substring(0, 1).ToUpper() + input.Substring(1);
-//    Console.WriteLine(changedInput);
-//}
+if (char.IsUpper(input[0]))
+{
+    Console.WriteLine(input.ToUpper());
+}
+else
+{
+    string changedInput = input.Substring(0, 1).ToUpper() + input.Substring(1);
+    Console.WriteLine(changedInput);
+}
 
 //3uzduotis
 ////////////////////////////////////////////////////////////////////////
@@ -111,17 +111,17 @@
 
 //3uzudotis
 ////////////////////////////////////////////////////////////////////////////////////////////////
-Console.WriteLine("Iveskite zodi");
-string input  = Console.ReadLine();
-if (input.Contains("labas"))
-{
-    char[] simboliuMasyvas = input.ToCharArray();
-    char[] t = simboliuMasyvas.Reverse().ToArray();
-    Array.Reverse(simboliuMasyvas); //simboliuMasyvas.Reverse();
-    string atbulasZodis = new string(simboliuMasyvas);
-    Console.WriteLine(atbulasZodis);
-}
-else
-{
-    Console.WriteLine(input);
-}
+//Console.WriteLine("Iveskite zodi");
+//string input  = Console.ReadLine();
+//if (input.Contains("labas"))
+//{
+//    char[] simboliuMasyvas = input.ToCharArray();
+//    char[] t = simboliuMasyvas.Reverse().ToArray();
+//    Array.Reverse(simboliuMasyvas); //simboliuMasyvas.Reverse();
+//    string atbulasZodis = new string(simboliuMasyvas);
+//    Console.WriteLine(atbulasZodis);
+//}
+//else
+//{
+//    Console.WriteLine(input);
+//}
