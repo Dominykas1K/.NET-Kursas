@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8 pamoka_Skaiciuotuvas", "8 pamoka_Skaiciuotuvas.csproj", "{F4C68689-012C-4892-A4BD-19834BE447AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8 pamoka_Skaiciuotuvas", "8 pamoka_Skaiciuotuvas.csproj", "{F4C68689-012C-4892-A4BD-19834BE447AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skaiciuotuvo testai", "..\Skaiciuotuvo testai\Skaiciuotuvo testai.csproj", "{26F7782A-B9E6-4DFB-AEA9-7400400A30D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F4C68689-012C-4892-A4BD-19834BE447AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4C68689-012C-4892-A4BD-19834BE447AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4C68689-012C-4892-A4BD-19834BE447AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F7782A-B9E6-4DFB-AEA9-7400400A30D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F7782A-B9E6-4DFB-AEA9-7400400A30D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F7782A-B9E6-4DFB-AEA9-7400400A30D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F7782A-B9E6-4DFB-AEA9-7400400A30D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

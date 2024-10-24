@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace _8_pamoka_Skaiciuotuvas
+namespace Skaiciuotuvas
 {
-    internal class Program
-    {
+    public class Program
+    { 
         static void Main(string[] args)
         {
             Meniu();
-
         }
         public static void Meniu()
         {
@@ -24,7 +23,7 @@ namespace _8_pamoka_Skaiciuotuvas
 
                 string pasirinkimas = Console.ReadLine();
 
-                if (pasirinkimas =="q")
+                if (pasirinkimas == "q")
                 {
                     break;
                 }
@@ -102,7 +101,7 @@ namespace _8_pamoka_Skaiciuotuvas
         {
             return a / b;
         }
-        public static double Saknis (double a)
+        public static double Saknis(double a)
         {
             return Math.Sqrt(a);
         }

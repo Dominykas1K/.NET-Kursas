@@ -3,13 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>_8_pamoka_Skaiciuotuvas</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Skaiciuotuvo testai\Skaiciuotuvo testai.csproj" />
-  </ItemGroup>
 
 </Project>
